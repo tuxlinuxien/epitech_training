@@ -24,7 +24,7 @@ $> ./mydbsh show
 v2 val2
 r1 rval1
 $> ./mydbsh v1 val1_update
-$> ./mydbsh v1
+$> ./mydbsh show v1
 val1_update
 $> ./mydbsh flush # this will flush all the data of your database
 $> ./mydbsh show
