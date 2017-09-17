@@ -1,0 +1,63 @@
+./mydbsh show toto 1
+# Invalid input
+--------
+./mydbsh flush test
+# Invalid input
+--------
+./mydbsh toto toto toto
+# Invalid input
+--------
+./mydbsh toto toto toto toto
+# Invalid input
+--------
+./mydbsh toto
+# Invalid input
+--------
+./mydbsh toto toto
+#
+--------
+./mydbsh toto toto2
+#
+--------
+./mydbsh tito tito2
+#
+--------
+./mydbsh show
+# tito tito2
+# toto toto2
+--------
+./mydbsh show-any *
+# tito tito2
+# toto toto2
+--------
+./mydbsh show-any t*to
+# tito tito2
+# toto toto2
+--------
+./mydbsh show-any t*t
+#
+--------
+./mydbsh show-any tot*
+# toto toto2
+--------
+./mydbsh flush
+#
+--------
+./mydbsh show
+#
+--------
+./mydbsh 'v ' 'v '
+#
+--------
+./mydbsh show 'v '
+# v
+--------
+./mydbsh show 'v'
+#
+--------
+./mydbsh '\\nv _' '\\nv _'
+#
+--------
+./mydbsh show '\\nv _'
+# \nv _
+--------
