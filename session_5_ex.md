@@ -39,5 +39,11 @@ int     main()
 then
 
 ```
-$> gcc main.c my_string.c -I./
+$> gcc -W -Wall -Werror main.c my_string.c -I./
 ```
+
+## Important
+
+* if your project directory contains more or less than 2 files than the ones required => 0/20
+* if your project contains a main function or main.c => 0/20
+* if your lib generates warnings => 0/20
