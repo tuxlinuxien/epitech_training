@@ -18,7 +18,7 @@ int     my_strcasecmp(const char *s1, const char *s2);
 ## Test
 
 ```c
-#include <stdio,h>
+#include <stdio.h>
 #include "my_string.h"
 
 int     main()
