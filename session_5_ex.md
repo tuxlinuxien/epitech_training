@@ -3,7 +3,7 @@
 ## List of functions required
 
 ```c
-char    *my_stpcpy(char *dest, const char *src);
+char    *my_strcpy(char *dest, const char *src);
 char    *my_strcat(char *dest, const char *src);
 int     my_strcmp(const char *s1, const char *s2);
 int     my_strlen(const char *s);
@@ -29,8 +29,8 @@ int     main()
     str1 = "hello";
     str2 = "world";
 
-    printf("%d\n", my_strlen(str1)); 
-    printf("%d\n", my_strlen(str2)); 
+    printf("%d\n", my_strlen(str1));
+    printf("%d\n", my_strlen(str2));
 
     return 0;
 }
