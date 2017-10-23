@@ -10,7 +10,7 @@ int my_putchar(int c)
 int my_putnumber(int)
 ```
 
-### List of allowed functions from the standard lib:
+### List of allowed functions from the standard lib
 
 * write
 
@@ -41,7 +41,7 @@ STDOUT.
 This directory will have to contains a file main.c at the root. You can however
 add as many C and Header file as your want.
 
-### Allowd functions
+### List of allowed functions from the standard lib
 
 * open
 * read
