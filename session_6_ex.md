@@ -59,7 +59,7 @@ you need to compile your program with gcc and add the following arguments
 ### Important
 
 * If a file provided as argument does not exists or doesn’t have read permission, you need to
-display `An error has occurred while opening <filename>.` on STDERR. where <filename> is
+display `An error has occurred while opening <filename>.` on STDERR. where `<filename>` is
 the name of a file.
 
 * Using printf, putchar, getchar will lead to 0 / 20. You need to code those functions by
