@@ -6,7 +6,7 @@
 
 ```
 int my_putstring(char *)
-int my_putchar(int c)
+int my_putchar(int)
 int my_putnumber(int)
 ```
 
@@ -36,6 +36,8 @@ similar program that takes files as arguments and display them into the terminal
 If no file is provided as argument, *my_cat* will have to read from `STDIN` and display the output
 on `STDOUT`.
 
+If I provide the parameter `-e`, all the carriage returns (`\n`) should be printed as `$`
+
 ### Example
 
 ```
@@ -44,6 +46,9 @@ $> echo "my file 2" > file2.txt
 $> my_cat file1.txt file2.txt
 my file 1
 my file 2
+my_cat -e file1.txt file2.txt
+my file 1$
+my file 2$
 $> my_cat file1.txt nofile.txt
 my file 1
 An error has occurred while opening nofile.txt.
