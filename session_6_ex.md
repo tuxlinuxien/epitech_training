@@ -27,16 +27,16 @@ int my_putnumber(int)
 
 ## PART 2
 
-you will have to write a program called *my_cat* that takes an infinite numbers
+you will have to write a program called **my_cat** that takes an infinite numbers
 of files as arguments.
-Same as the command *cat* which display files into your terminal, you will have to write a
+Same as the command **cat** which display files into your terminal, you will have to write a
 similar program that takes files as arguments and display them into the terminal on
 `STDOUT`.
 
-If no file is provided as argument, *my_cat* will have to read from `STDIN` and display the output
+If no file is provided as argument, **my_cat** will have to read from `STDIN` and display the output
 on `STDOUT`.
 
-If I provide the parameter `-e`, all the carriage returns (`\n`) should be printed as `$`
+If the parameter `-e` is provided, all the carriage returns (`\n`) should be printed as `$`
 
 ### Example
 
@@ -54,7 +54,7 @@ my file 1
 An error has occurred while opening nofile.txt.
 $> echo "this is a line" | my_cat
 this is a line
-$> echo "this is a line" | cat file1.txt
+$> echo "this is a line" | my_cat file1.txt
 my file 1
 $>
 ```
