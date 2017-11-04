@@ -139,3 +139,4 @@ you need to compile your program with gcc and add the following arguments
 * `for` loop, `else if` and `switch` are strictly forbidden and will lead to 0 / 20.
 * macro are forbidden (-5 per macro).
 * Using printf, putchar, getchar will lead to 0 / 20. You need to code those functions by yourself and prefix them with `my_`
+* If I see any commented code in the part 1 or part 2, it will lead to 0 / 20.
