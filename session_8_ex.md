@@ -19,7 +19,7 @@ You can for sure create as many c and header files as you want.
 
 ## Compile
 
-you need to compile your program with **gcc** and the following arguments:
+You need to compile your program with **gcc** and the following arguments:
 
 ```
 -W -Wall -Werror
@@ -90,14 +90,14 @@ invalid command.
 
 ## Important
 
-* if your program generates warnings => 0/20
+* If your program generates warnings => 0/20
 * `for` loop, `else if` and `switch` are strictly forbidden => 0 / 20.
-* macro are forbidden (-5 per macro).
+* Macro are forbidden (-5 per macro).
 * If I see any comment or commented code => 0 / 20.
 * No more than 5 functions per C file => -1 per extra function.
 * No more than 30 lines per function => -1 per extra line.
 * If you allocate memory (by using **malloc**), you need to free it => -5 per memory leak
-* only *.c, *.h, directories, build.sh or my_calc are allowed during your presentation => -1 per invalid file
+* only \*.c, \*.h, directories, build.sh or my_calc are allowed during your presentation => -1 per invalid file
 * Any abnormal program termination *(ex: SIGSEV/SegFault/Segmentation Fault)* => 0/20
 
 Example of a valid 30 lines function:
@@ -170,6 +170,9 @@ void toto()
         do_something();
     else
         do_other_thing();
+
+    while (true)
+        do_it_many_times();
 }
 ```
 
@@ -179,11 +182,15 @@ Invalid
 void toto()
 {
     int i = 0;
+
     i++;
     if (i == 0)
     do_something();
     else
     do_other_thing();
+
+while (true)
+    do_it_many_times();
 }
 ```
 
