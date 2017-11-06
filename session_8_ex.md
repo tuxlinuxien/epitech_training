@@ -5,6 +5,7 @@
 * malloc
 * free
 * write
+* sizeof
 
 ## Binary name
 
